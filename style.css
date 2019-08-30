@@ -1,11 +1,14 @@
+/*Fonts all pages*/
 body {
     background-color: #eeeeee;
     color: #333333;
-    font-family: 'Arial', 'Verdana', sans-serif;
+    font-family: 'Segoe UI','Arial','Verdana',sans-serif;
     }
+/*Border around table*/    
 td {
     border: 1px solid black;
 }
+/*Top Navigation bar configuration*/
 .topnav {
     background-color: #2180ce;
     overflow: hidden;
@@ -14,7 +17,7 @@ td {
     float: left;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 20px 22px;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 17 px;   
 }
