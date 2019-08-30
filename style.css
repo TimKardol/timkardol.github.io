@@ -4,10 +4,22 @@ body {
     color: #333333;
     font-family: 'Segoe UI','Arial','Verdana',sans-serif;
     }
+
+
+/*HZpasfoto*/
+.thin-black-border-hz-foto {
+    border-color: rgb(0, 0, 0);
+    border-width: 7px;
+    border-style: solid;
+} 
+
+
 /*Border around table*/    
 td {
     border: 1px solid black;
 }
+
+
 /*Top Navigation bar configuration*/
 .topnav {
     background-color: #2180ce;
