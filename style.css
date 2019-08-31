@@ -24,6 +24,7 @@ td {
 .topnav {
     background-color: #2180ce;
     overflow: hidden;
+    margin: -10px
 }
 .topnav a {
     float: left;
