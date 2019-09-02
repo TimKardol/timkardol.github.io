@@ -5,6 +5,30 @@ body {
     font-family: 'Segoe UI','Arial','Verdana',sans-serif;
     }
 
+  
+/*Top Navigation bar configuration*/
+.topnav {
+  background-color: #2180ce;
+  overflow: hidden;
+  margin: -10px
+}
+.topnav a {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17 px;   
+}
+.topnav a:hover {
+  background-color: #1a598b;
+  color: black;
+}
+.topnav a.active {
+  background-color: #1a598b;
+  color: white;
+}
+
 
 /*intro op index.html*/
 .intro {
@@ -78,25 +102,3 @@ th, td {
 
 
 
-/*Top Navigation bar configuration*/
-.topnav {
-    background-color: #2180ce;
-    overflow: hidden;
-    margin: -10px
-}
-.topnav a {
-    float: left;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17 px;   
-}
-.topnav a:hover {
-    background-color: #1a598b;
-    color: black;
-}
-.topnav a.active {
-    background-color: #1a598b;
-    color: white;
-  }
