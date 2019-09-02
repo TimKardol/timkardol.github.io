@@ -6,6 +6,7 @@ body {
     }
 
 
+/*intro op index.html*/
 .intro {
   margin: 10%;
   margin-top: 10px;
@@ -15,7 +16,7 @@ body {
 
 /*Profile card CSS*/
 .profile-card {
-    box-shadow: 0 4px 8px 0 #2180ce;
+    box-shadow: 0 6px 10px 0 #2180ce;
     max-width: 200px;
     margin: center;
     text-align: center;
@@ -45,6 +46,12 @@ button {
 button:hover, a:hover {
     opacity: 0,7;
   }
+
+
+/*kennismaking naast profile card*/
+.kennismaking {
+margin: 20%
+}
 
 
 /*Border around table*/    
