@@ -6,6 +6,13 @@ body {
     }
 
 
+.intro {
+  margin: 10%;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+
 /*Profile card CSS*/
 .profile-card {
     box-shadow: 0 4px 8px 0 #2180ce;
@@ -39,7 +46,7 @@ button:hover, a:hover {
     opacity: 0,7;
   }
 
-  
+
 /*Border around table*/    
 td {
     border: 1px solid black;
