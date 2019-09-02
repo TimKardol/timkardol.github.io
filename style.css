@@ -174,7 +174,8 @@ button:hover, a:hover {
 /*Table CSS*/    
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 75%;
+  background-color: white;
 }
 
 th {
@@ -185,12 +186,12 @@ th {
 }
 
 tr:hover {
-  background-color: lightgray
+  background-color: lightgray;
 }
 
 
 th, td {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid black;
 }
 
 
