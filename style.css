@@ -125,10 +125,15 @@ body {
 
 
 /*intro op index.html*/
-.intro {
-  margin: 10%;
-  margin-top: 10px;
-  padding: 5px;
+.text {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:#ffffff;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 2%;
 }
 
 
@@ -164,12 +169,6 @@ button {
 button:hover, a:hover {
     opacity: 0,7;
   }
-
-
-/*kennismaking naast profile card*/
-.kennismaking {
-margin: 10px;
-}
 
 
 /*Table CSS*/    
