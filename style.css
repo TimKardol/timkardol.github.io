@@ -50,14 +50,32 @@ button:hover, a:hover {
 
 /*kennismaking naast profile card*/
 .kennismaking {
-margin: 20%
+margin: 10px;
 }
 
 
-/*Border around table*/    
-td {
-    border: 1px solid black;
+/*Table CSS*/    
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
+
+th {
+  height: 50px;
+  text-align: left;
+  background-color: #2180ce;
+  color: white;
+}
+
+tr:hover {
+  background-color: lightgray
+}
+
+
+th, td {
+  border-bottom: 1px solid grey;
+}
+
 
 
 /*Top Navigation bar configuration*/
