@@ -21,17 +21,30 @@ body {
 }
 
 
+/* Dashboard Style */
+.dashboard {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:#ffffff;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 2%;
+}
+
+
 /*Profile card CSS*/
 .profile-card {
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 12px 0 #2180ce;
   max-width: 250px;
-  margin: auto;
+  margin: 10px;
   text-align: center;
 }
 
 
 .title {
-  color: grey;
+  color: rgb(0, 0, 0);
   font-size: 18px;
 }
 
@@ -42,7 +55,7 @@ button {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #2180ce;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -53,7 +66,7 @@ button {
 a {
   text-decoration: none;
   font-size: 22px;
-  color: black;
+  color: #000000;
 }
 
 

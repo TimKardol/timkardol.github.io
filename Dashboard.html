@@ -11,30 +11,28 @@
 
     <!--Link to Icons-->
     <script src="https://kit.fontawesome.com/bc6beb8b26.js"></script>
-
+    
+    <!--Navbar-->
+    <div class="topnav" id="myTopnav">
+            <a href="index.html"><i class="fas fa-home"></i>Home</a>
+            <a href="profile.html"><i class="fas fa-user"></i>Profile</a>
+            <div class="dropdown" class="active">
+              <button class="dropbtn"><i class="fas fa-check"></i>Dashboard
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="Dashboard.html">Dashboard</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div> 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
 
 </head>
 <body>
-   
-<!--Navbar-->
-<div class="topnav" id="myTopnav">
-        <a href="index.html"><i class="fas fa-home"></i>Home</a>
-        <a href="profile.html"><i class="fas fa-user"></i>Profile</a>
-        <div class="dropdown" class="active">
-          <button class="dropbtn"><i class="fas fa-check"></i>Dashboard
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="Dashboard.html">Dashboard</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-        </div> 
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-      </div>   
-
+<div class="dashboard">
 <!--Table Heads-->
-<br>
     <table>
         <tr>
             <th>Blok</th>
@@ -233,5 +231,6 @@
             <td></td>
         </tr>
     </table>
+</div>
 </body>
 </html>
