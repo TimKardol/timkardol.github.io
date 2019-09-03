@@ -5,8 +5,60 @@ body {
     font-family: 'Segoe UI','Arial','Verdana',sans-serif;
     }
 
-  
-/*Top Navigation bar configuration*/
+
+/* Kennismaking text profile.html */
+.container-profile {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2%;
+  padding-right: 5%;
+  background-color:#ffffff;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 2%;
+}
+
+
+/*Profile card CSS*/
+.profile-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+/* Top Navigation bar with dropdown menu configuration */
 .topnav {
   background-color: #2180ce;
   overflow: hidden;
@@ -125,7 +177,7 @@ body {
 
 
 /*intro op index.html*/
-.text {
+.intro-text {
   padding-left: 5%;
   padding-right: 5%;
   background-color:#ffffff;
@@ -135,40 +187,6 @@ body {
   padding-bottom: 1%;
   margin-top: 2%;
 }
-
-
-/*Profile card CSS*/
-.profile-card {
-    box-shadow: 0 6px 10px 0 #2180ce;
-    max-width: 200px;
-    margin: center;
-    text-align: center;
-  }
-
-
-.title {
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-  }
-  
-
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #2180ce;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-
-
-button:hover, a:hover {
-    opacity: 0,7;
-  }
 
 
 /*Table CSS*/    
