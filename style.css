@@ -1,6 +1,6 @@
 /* Fonts all pages */
 body {
-    background-color: #ececec;
+    background-image: image(spacebackground);
     color: #333333;
     font-family: 'Segoe UI','Arial','Verdana',sans-serif;
     }
