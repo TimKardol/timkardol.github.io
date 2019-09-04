@@ -29,7 +29,7 @@ body {
 #container-link-logo {
   position: relative;
   width: 100%;
-  max-width: ;
+  max-width: 500px;
 }
 
 
@@ -54,7 +54,7 @@ body {
   padding: 0px;
   text-align: center;
 }
-
+/* for tomorrow */
 
 #container:hover .overlay {
   opacity: 1;
