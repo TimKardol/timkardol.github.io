@@ -23,7 +23,7 @@ body {
 
 /* Profile Style */
 .container-profile {
-  box-shadow: 0 6px 10px #313131;
+  box-shadow: 0 6px 10px #424242;
   display: flex;
   flex-direction: row;
   padding-left: 2%;
@@ -39,7 +39,7 @@ body {
 
 /* Index Style */
 .intro-text {
-  box-shadow: 0 6px 10px #313131;
+  box-shadow: 0 6px 10px #424242;
   flex-direction: row;
   padding-left: 2%;
   padding-right: 5%;
@@ -54,7 +54,7 @@ body {
 
 /* Dashboard Style */
 .dashboard {
-  box-shadow: 0 6px 10px #313131;
+  box-shadow: 0 6px 10px #424242;
   display: flex;
   flex-direction: row;
   padding-left: 2%;
