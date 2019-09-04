@@ -28,6 +28,8 @@ body {
 
 .picture-links {
   flex-wrap: wrap;
+  box-shadow: #2180ce 0px 0px 6px;
+  border-radius: 25%;
 }
 
 
