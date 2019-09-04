@@ -1,8 +1,9 @@
 /* Fonts all pages */
 body {
-    background-image: image(spacebackground);
+    background-image: url(Spacebackground.jpg);
     color: #333333;
     font-family: 'Segoe UI','Arial','Verdana',sans-serif;
+    overflow-x: hidden;
     }
 
 /* Handige Links Style */
@@ -125,7 +126,7 @@ button:hover, a:hover {
 .topnav {
   background-color: #2180ce;
   overflow: hidden;
-  margin: -10px;
+  margin: 1%;
 }
 
 
