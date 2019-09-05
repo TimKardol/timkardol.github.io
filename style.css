@@ -9,7 +9,6 @@ body {
 /* Handige Links Style */
 .handige-links {
   box-shadow: 0 6px 10px #313131;
-  display: flex;
   padding-left: 2%;
   padding-right: 5%;
   background-color:#ffffff;
@@ -18,7 +17,7 @@ body {
   padding-top: 1%;
   padding-bottom: 1%;
   margin-top: 2%;
-  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 
