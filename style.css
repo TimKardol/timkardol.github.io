@@ -37,6 +37,11 @@ body {
 }
 
 
+.profile-text {
+  margin-left: 1%;
+}
+
+
 /* Index Style */
 .intro-text {
   box-shadow: 0 6px 10px #424242;
@@ -251,7 +256,4 @@ tr:hover {
 th, td {
   border-bottom: 1px solid black;
 }
-
-
-* {box-sizing: border-box}
 
