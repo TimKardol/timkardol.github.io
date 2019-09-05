@@ -10,7 +10,6 @@ body {
 .handige-links {
   box-shadow: 0 6px 10px #313131;
   display: flex;
-  flex-direction: row;
   padding-left: 2%;
   padding-right: 5%;
   background-color:#ffffff;
@@ -20,44 +19,6 @@ body {
   padding-bottom: 1%;
   margin-top: 2%;
   flex-wrap: wrap;
-}
-
-
-* {box-sizing: border-box;}
-
-
-#container-link-logo {
-  position: relative;
-  width: 100%;
-  max-width: 500px;
-}
-
-
-#HZ-logo-edit-style {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-
-#overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #636363;
-  width: 100%;
-  transition: .5s ease;
-  opacity:0;
-  color: rgb(110, 110, 110);
-  font-size: 20px;
-  padding: 0px;
-  text-align: center;
-}
-/* for tomorrow */
-
-#container:hover .overlay {
-  opacity: 1;
 }
 
 
@@ -293,4 +254,48 @@ th, td {
 }
 
 
+* {box-sizing: border-box}
 
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container-link-foto {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+
+/* Make the image to responsive */
+.logo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.815); /* Black see-through */
+  color: #ffffff;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* When you mouse over the container, fade in the overlay title */
+.container-link-foto:hover .overlay {
+  opacity: 1;
+}
+
+
+.container-link-foto2:hover .overlay {
+  opacity: 1;
+}
