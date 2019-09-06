@@ -1,9 +1,10 @@
 /* Fonts all pages */
 body {
-  color: #333333;
+  color: #0066ff;
   font-family: 'Segoe UI','Arial','Verdana',sans-serif;
   overflow-x: hidden;
-  background-image: url(Spacebackground.jpg)
+  background-image: url(Spacebackground.jpg);
+  
 }
 
 /* Handige Links Style */
