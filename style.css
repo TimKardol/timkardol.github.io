@@ -8,6 +8,21 @@ body {
 }
 
 
+/* STYLE MIJN MOTIVATIE PAGE */
+.motivatie {
+  box-shadow: 0 6px 10px #313131;
+  padding-left: 2%;
+  padding-right: 5%;
+  background-color:#ffffff;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 2%;
+  flex-direction: row;
+}
+
+
 /* STYLE HANDIGE LINKS PAGE */
 .handige-links {
   box-shadow: 0 6px 10px #313131;
