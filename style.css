@@ -7,7 +7,8 @@ body {
   
 }
 
-/* Handige Links Style */
+
+/* STYLE HANDIGE LINKS PAGE */
 .handige-links {
   box-shadow: 0 6px 10px #313131;
   padding-left: 2%;
@@ -22,7 +23,7 @@ body {
 }
 
 
-/* Profile Style */
+/* STYLE PROFILE PAGE */
 .container-profile {
   box-shadow: 0 6px 10px #424242;
   display: flex;
@@ -43,7 +44,7 @@ body {
 }
 
 
-/* Index Style */
+/* STYLE INDEX PAGE */
 .intro-text {
   box-shadow: 0 6px 10px #424242;
   flex-direction: row;
@@ -58,7 +59,7 @@ body {
 }
 
 
-/* Dashboard Style */
+/* STYLE DASHBOARD PAGE */
 .dashboard {
   box-shadow: 0 6px 10px #424242;
   display: flex;
