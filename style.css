@@ -23,6 +23,11 @@ body {
 }
 
 
+.bronnenlijst li a {
+  font-size: 14px;
+}
+
+
 /* STYLE HANDIGE LINKS PAGE */
 .handige-links {
   box-shadow: 0 6px 10px #313131;
