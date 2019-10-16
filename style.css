@@ -95,18 +95,25 @@ body {
 
 
 /* STYLE BEROEPSBEELD PAGE */
-.flexbox-beroepsbeeld {
-  box-shadow: 0 6px 10px #424242;
+.flexbox-parent-beroepsbeeld {
   display: flex;
   flex-direction: row;
-  padding-left: 2%;
-  padding-right: 5%;
-  background-color: #ffffff;
-  margin-left: 1%;
-  margin-right: 1%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  margin-top: 2%;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+.flexbox-item{
+  order: 1;
+  flex-grow: 2;
+
+}
+
+.flexbox-item2 {
+  order: 2;
+  flex-grow: 1;
+  
 }
 
 /*Profile card CSS*/
