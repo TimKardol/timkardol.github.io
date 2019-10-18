@@ -109,6 +109,10 @@ body {
   margin-top: 2%;
 }
 
+.column {
+  flex: 50%;
+}
+
 
 /*Profile card CSS*/
 .profile-card {
